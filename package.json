@@ -1,0 +1,23 @@
+{
+  "name": "fetch-json-feed",
+  "version": "1.0.0",
+  "description": "An exercise in developing a Reddit-themed image gallery by using the [Reddit API](https://www.reddit.com/dev/api/). Operates by fetching the JSON feed of any subreddit by adding a `.json` extension to the URL.",
+  "main": "./public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mediarcj/fetch-json-feed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mediarcj/fetch-json-feed/issues"
+  },
+  "homepage": "https://github.com/mediarcj/fetch-json-feed#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
