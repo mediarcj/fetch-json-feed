@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109008540-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109008540-3');
+  </script>
+  <!-- End Google Analytics -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>- FASTENATE -</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="header-left-padding"></div>
+      <div class="header-logo"><img src="../assets/logo.svg" alt="logo"></div>
+      <div id="headerMenuButton" class="header-menu-button">
+        <span class="header-plus-icon" data-jam="plus" data-width="30px" data-height="30px"></span>
+      </div>
+    </div>
+
+    <div class="links">
+      <div id="randomSubreddit" class="links-link">RANDOM</div>
+      <span class="links-bullet">•</span>
+      <div class="links-link fixed-subreddit">CITIES</div>
+      <span class="links-bullet">•</span>
+      <div class="links-link fixed-subreddit">SKIES</div>
+      <span class="links-bullet">•</span>
+      <div class="links-link fixed-subreddit">STARS</div>
+    </div>
+
+    <div id="cards" class="cards"></div>
+
+    <div class="footer">
+      <a href="#">
+        <div class="footer-facebook-logo" alt="facebook-logo"></div>
+      </a>
+      <a href="#">
+        <div class="footer-instagram-logo" alt="instagram-logo"></div>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/jam-icons@2.0.0/js/jam.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
